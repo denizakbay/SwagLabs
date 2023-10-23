@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-not_run: WebUI.maximizeWindow()
+ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Test1_OR/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
 
